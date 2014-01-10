@@ -5,7 +5,8 @@ Display a todo list (as an OL) with some fake todo items already there. Add 
 
 Difficulty: Medium­High
 
-Initial Requirements:
+# Initial Requirements:
+
 1. Clear text
 The text should clear from the textbox after you click the “Add” button
 
