@@ -21,7 +21,7 @@ $(document).ready(function(){
 		});
 	});
 
-	$('input:checkbox').click(function(){
+	$('ul').on("click", "input:checkbox", function(){
 		if($(this).is(':checked')){
 			$(this).siblings('.display').css("text-decoration","line-through");
 		}else{
