@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.btn.btn-default').click(function() {
+	$('.btn.btn-info').click(function() {
 		event.preventDefault();
 		var value = $('#inputTask').val();
 		$('.list-group').prepend('<li class="list-group-item"><input class="done" type="checkbox" name="task">'+" "+'<span class="display">'+value+'</span><input type="text" id="edit" style="display:none" /><span class="glyphicon glyphicon-remove"></span><span class="glyphicon glyphicon-calendar"></span><span class="glyphicon glyphicon-pencil"></span></li>');

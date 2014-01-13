@@ -1,28 +1,39 @@
 body {
-  background-color: #ccc; }
+  background-color: #eee;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter; }
 
 .container {
   width: 500px; }
 
 .task {
-  background-color: black;
+  background-color: #35507c;
   border-radius: 5px;
   padding: 5px;
   margin-top: 50px;
   color: #fff; }
   .task h1 {
     text-align: center;
-    margin-bottom: 24px; }
+    margin-bottom: 15px;
+    font-weight: lighter; }
   .task form {
     width: 400px;
-    height: 110px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 30px; }
+    .task form #inputTask {
+      text-align: center;
+      font-size: 18px;
+      height: 2.5em;
+      font-weight: lighter; }
     .task form button {
       width: 100%;
-      margin-top: 10px; }
+      margin-top: 15px; }
 
 .list {
   margin-top: 30px; }
   .list li span.glyphicon {
     float: right;
-    margin-left: 8px; }
+    margin-left: 8px;
+    color: #35507c; }
+    .list li span.glyphicon:hover {
+      color: #5bc0de; }

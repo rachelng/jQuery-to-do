@@ -1,5 +1,7 @@
 body {
-	background-color: #ccc;
+	background-color: #eee;
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
 }
 
 .container {
@@ -7,22 +9,29 @@ width: 500px;
 }
 
 .task {
-	background-color:black;
+	background-color:#35507c;
 	border-radius: 5px;
 	padding: 5px;
 	margin-top:50px;
 	color: #fff;
 	h1 {
 		text-align:center;
-		margin-bottom:24px;
+		margin-bottom:15px;
+		font-weight:lighter;
 	}
 	form {
 		width: 400px;
-		height: 110px;
 		margin: 0 auto;
+		margin-bottom:30px;
+		#inputTask {
+			text-align:center;
+			font-size:18px;
+			height:2.5em;
+			font-weight:lighter;
+		}
 		button {
 			width: 100%;
-			margin-top:10px;
+			margin-top:15px;
 		}
 	}
 }
@@ -34,17 +43,11 @@ width: 500px;
 		&.glyphicon {
 			float: right;
 			margin-left:8px;
+			color: #35507c;
+			&:hover{
+				color:#5bc0de;
+			}
 			}
 		}
 	}
 }
-
-
-
-
-// .glyphicon {
-// 	.glyphicon-remove {
-// 	}
-// 	.glyphicon-pencil {		
-// 	}
-// }
