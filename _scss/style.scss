@@ -30,9 +30,12 @@ width: 500px;
 .list {
 	margin-top: 30px;
 	li {
-	span {
-		float: right;
-		}	
+		span {
+		&.glyphicon {
+			float: right;
+			margin-left:8px;
+			}
+		}
 	}
 }
 
