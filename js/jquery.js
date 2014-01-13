@@ -21,7 +21,13 @@ $(document).ready(function(){
 		});
 	});
 
-
+	$('input:checkbox').click(function(){
+		if($(this).is(':checked')){
+			$(this).siblings('.display').css("text-decoration","line-through");
+		}else{
+			$(this).siblings('.display').css("text-decoration","none");
+		}
+	});
 
 
 	// $('ul').on("click", ".glyphicon-calendar", function(){
@@ -32,9 +38,6 @@ $(document).ready(function(){
 	// 	$(this).datepicker({ 
  //        });
 	// });
-
-	// $('.list-group-item').checked(function() {
-	// 	$('li').css('text-decoration:', 'line-through');
 
 	$(function() {
 	    $( ".list-group" ).sortable();
